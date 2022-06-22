@@ -1,0 +1,129 @@
+
+.page{
+    margin: 2em 10em;
+}
+
+.pageNumbers{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #4286f4;
+    border-radius: 16px;
+}
+
+.pageNumbers li{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.pageNumbers li.active{
+    background-color: rgb(163, 163, 163);
+    color: black;
+}
+
+.pageNumbers li button {
+    background-color: blue;
+}
+
+.button-pagination{
+    display: block;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.button-pagination:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.button-pagination:focus{
+    outline: none;
+}
+
+.flex-page1{
+    margin: 2em;
+    justify-content: space-evenly;
+}
+
+.place-movies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.movies{
+    display: flex;
+    width: 49%;
+    background-color: rgb(163, 163, 163); 
+    margin: 10px 0 20px 0;
+    border-radius: 16px;
+}
+
+.movies:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.movies-image{
+    display: block;
+    width: 150px;
+    float: left;
+    padding: 2em 2em 0 2em;
+}
+
+.information-movies{
+    padding: 0 2em 0 0 ;
+    margin: auto;
+}
+
+.review{
+    display: block;
+    background-color: whitesmoke;
+    border-radius: 16px;
+    height: 200px;
+    white-space: wrap;
+    overflow: auto;
+    width: 300px;
+    padding: 1em;
+}
+
+.title{
+    margin: 10px;
+    width: 58%
+}
+
+.rate{
+    text-align: center;
+}
+
+.rate>p{
+    display:inline-block;
+}
+
+.no-reviews{
+    margin: auto;
+    text-decoration: none;
+    padding: 100px 0 0 0;
+}
+
+.delete {
+    float: right;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.trashcan{
+    transition: width 2s, height 2s;
+}
+
+.trashcan:hover{
+    width: 37px;
+    height: 37px;
+    transform: rotateX(30deg);
+    transition-timing-function: linear;
+}
