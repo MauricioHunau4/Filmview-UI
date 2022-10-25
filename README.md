@@ -2,7 +2,7 @@
 
 ## The code can be cloned
 
-If you want to try it, clone the project and write "npm i" or "yarn i"
+If you want to try it, clone the project and write "npm i" or "yarn add"
 
 Filmview is a web page where you can write reviews of any movie you like, rating them and reading others user's reviews. First you need to do an account by going to sign up where they are going to ask you a username and a password to be able to write a review, then ou will be redirected to the main page where all the reviews will be displa to read.
 
